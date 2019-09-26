@@ -12,6 +12,8 @@ namespace SimulatedAnnealingNSP
             decimal hardConstraintCost = calculateHardConstraint(instance, solution);
             decimal totalCost = softConstraintCost + hardConstraintCost;
 
+
+
             return totalCost;
         }
 
